@@ -1,12 +1,19 @@
 {
-  "id": "optimization-mechanics",
-  "title": "Optimization Mechanics Visualizer",
-  "category": "lab",
-  "href": "index.html",
-  "readme": "README.md",
-  "order": 18,
-  "section": "featured",
-  "icon": "OM",
-  "launchLabel": "Open the Optimization Mechanics Visualizer lab",
-  "pitch": "Drop GD, Adam, L-BFGS, and QQN onto the same rugged 2D loss landscape and watch, step by step, how each finds its way downhill. Configurable terrain (slopes, bowls, high-frequency noise, confounding lattices), a fading path with live gradient arrows, and projected statistics bars that expose the running gradient and squared-gradient accumulations adaptive optimizers quietly maintain. Step through QQN's oracle point, quadratic path, and line-search probes to see the mechanics papers describe in equations."
+    "id": "optimization-mechanics",
+    "title": "Optimization Mechanics Visualizer",
+    "description": "Drop GD, Adam, L-BFGS, and QQN onto the same rugged 2D loss landscape and watch, step by step, how each finds its way downhill. Configurable terrain (slopes, bowls, high-frequency noise, confounding lattices), a fading path with live gradient arrows, and projected statistics bars that expose the running gradient and squared-gradient accumulations adaptive optimizers quietly maintain. Step through QQN's oracle point, quadratic path, and line-search probes to see the mechanics papers describe in equations.",
+    "tags": [
+        "optimization",
+        "gradient-descent",
+        "adam",
+        "l-bfgs",
+        "qqn",
+        "visualization",
+        "canvas",
+        "interactive"
+    ],
+    "category": "labs",
+    "href": "index.html",
+    "readme": "README.md",
+    "order": 18
 }
